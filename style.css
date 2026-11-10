@@ -1,0 +1,26 @@
+*{
+    size: 100%;
+    background-color: rgb(39, 39, 39);
+}
+#title{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+#paragraph{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+#pronouns{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: sans-serif;
+}
+#player{
+    position: relative;
+    width: 50%;
+    height: 50%;
+    left: 25%;
+}
