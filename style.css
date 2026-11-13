@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+}
+#bg{
+    height: 100%;
+    background-color: rgb(29, 52, 90);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#Btn{
+    height: 50px;
+    width: 165px;
+    border-radius: 10px;
+    background-color: white;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    border-style: none;
+
+    justify-content: space-around;
+    align-items: center;
+    font-family: sans-serif;
+    z-index: 2;
+    overflow: hidden;
+}
+#Buttons{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#title{
+    margin: 10px;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+#paragraph{
+    margin: 20px;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+#pronouns{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: sans-serif;
+}
+#player{
+    position: relative;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    left: 25%;
+}
